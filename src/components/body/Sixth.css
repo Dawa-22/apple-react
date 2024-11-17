@@ -1,0 +1,16 @@
+.sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	background-image: url("../images/home/trade.jpg");
+	background-color: #fafafa;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;
+}
+.sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	background-image: url("../images/home/apple_card.jpg");
+	background-color: #fbfbfd;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;
+}

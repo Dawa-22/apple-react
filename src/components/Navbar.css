@@ -1,0 +1,32 @@
+/* nav Style */
+.nav-wrapper {
+	background: rgba(0, 0, 0, 0.8);
+	font-size: 0.7em;
+	font-weight: 200;
+}
+.navbar-toggler, .nav-wrapper ul li a {
+	color: #c4c4c4;
+	transition: 0.3s;
+}
+
+.nav-wrapper ul li a:hover {
+	color: #ffffff;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  	/*nav bar*/
+	
+.nav-item {
+	text-align: left !important;
+}
+	.sidebar {
+		display: none;
+}
+}

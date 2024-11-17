@@ -1,0 +1,22 @@
+.second-hightlight-wrapper {
+	background-image: url("../images/home/mobile.jpg");
+	height: 700px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: rgb(245, 245, 245);
+	text-align: center;
+	padding: 65px 20px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+
+/* section 2*/
+.second-hightlight-wrapper {
+	background-image: url("../images/home/mobile2.jfif");
+	height: 800px;
+}
+}

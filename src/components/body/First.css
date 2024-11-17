@@ -1,0 +1,31 @@
+.first-hightlight-wrapper {
+	background-image: url("../images/home/iphonepro.jfif");
+	height: 760px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: black;
+	text-align: center;
+	padding: 65px 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.iphone-caption {
+	color: white;
+	font-size: 12px;
+	line-height: 1.33337;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	padding-top: 310px;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+
+  /* section 1*/
+.first-hightlight-wrapper {
+	background-image: url("../images/home/iphonepro2.jpg");
+	height: 600px;
+}
+}

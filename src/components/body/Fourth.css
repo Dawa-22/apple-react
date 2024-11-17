@@ -1,0 +1,18 @@
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	background-image: url("../images/home/macmini.jpg");
+	background-color: #fafafa;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	background-image: url("../images/home/imac.jpg");
+	background-color: #fafafa;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+	max-width: 380px;
+}

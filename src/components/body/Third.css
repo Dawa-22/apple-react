@@ -1,0 +1,21 @@
+.third-hightlight-wrapper {
+	background-image: url("../images/home/mac.png");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: black;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px){
+
+  /* section 3*/
+.third-hightlight-wrapper {
+	background-image: url("../images/home/mac2.jpg");
+}
+}
