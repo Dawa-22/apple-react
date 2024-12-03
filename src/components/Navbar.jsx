@@ -27,48 +27,48 @@ function Navbar() {
           >
             ☰
           </button>
-          <a className="bb navbar-brand ml-auto" href="#">
+          <a className="bb navbar-brand ml-auto" href="/">
             <img src={logo}/>
           </a>
 
           <div className="sidebar navbar-collapse">
             <ul className="navbar-nav nav-justified w-100 nav-fill">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Store</a>
+                <a className="nav-link js-scroll-trigger" href="/Store">Store</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Mac</a>
+                <a className="nav-link js-scroll-trigger" href="/Mac">Mac</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">iphone</a>
+                <a className="nav-link js-scroll-trigger" href="/Iphone">iphone</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">ipad</a>
+                <a className="nav-link js-scroll-trigger" href="Ipad">ipad</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">watch</a>
+                <a className="nav-link js-scroll-trigger" href="Watch">watch</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Vision</a>
+                <a className="nav-link js-scroll-trigger" href="Vision">Vision</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Tv & Home</a>
+                <a className="nav-link js-scroll-trigger" href="Tv">Tv & Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Entertainment</a>
+                <a className="nav-link js-scroll-trigger" href="Entertainment">Entertainment</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Accessories</a>
+                <a className="nav-link js-scroll-trigger" href="Accessories">Accessories</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">Support</a>
+                <a className="nav-link js-scroll-trigger" href="Support">Support</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#"
                   ><img src={search}/></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#"
+                <a className="nav-link js-scroll-trigger" href="/Cart"
                   ><img src={cart}/></a>
               </li>
             </ul>
